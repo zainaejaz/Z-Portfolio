@@ -12,13 +12,11 @@ export default function Navbar() {
   };
 
   const closeMenu = () => {
-    menuRef.current.style.right = "-350px";
+    menuRef.current.style.right = "-360px"; // Adjust this to -50% of 350px
   };
 
   return (
     <nav className="flex justify-between p-4 relative navbar">
-      {" "}
-      {/* Changed justify-around to justify-between */}
       <h1
         style={{
           background: "linear-gradient(300deg, red, black)",
@@ -31,7 +29,7 @@ export default function Navbar() {
         src={menuOpen}
         onClick={openMenu}
         alt="Open menu"
-        className="object-cover w-20 h-13 nav-mob-open"
+        className="object-cover w-20 h-13 nav-mob-open nav-open-layout"
       />
       <ul ref={menuRef} className="flex gap-5 p-4 nav-menu">
         <img

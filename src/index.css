@@ -46,7 +46,7 @@ body {
 @media (max-width: 768px) {
   .navbar {
     margin: 20px 50px;
-    justify-content: flex-start; /* Align content to the start */
+    justify-content: flex-start;
   }
 
   .navContact {
@@ -61,7 +61,7 @@ body {
 
   .nav-mob-close {
     display: block;
-    position: absolute; /* Use absolute positioning to position the icon within the nav-menu */
+    position: absolute;
     top: 20px;
     left: 290px;
     width: 30px;
@@ -74,7 +74,7 @@ body {
     align-items: center;
     top: 0;
     gap: 30px;
-    background-color: red;
+    background-color: #af3131;
     width: 350px;
     height: 100%;
     z-index: 2;
@@ -102,6 +102,7 @@ body {
     margin-left: 30px;
   }
 }
+
 @media (max-width: 900px) {
   .about-layout {
     display: flex;
@@ -119,21 +120,21 @@ body {
 
 @media (max-width: 465px) {
   .about-layout {
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
+    flex-direction: column;
+    align-items: center;
   }
 
   .about-layout img {
-    width: 80vw; /* Adjust image width for smaller screens */
-    height: auto; /* Maintain aspect ratio */
+    width: 80vw;
+    height: auto;
   }
 
   .skill-bar {
-    width: 100%; /* Make skill bars full width */
+    width: 100%;
   }
 
   .text-left {
-    text-align: center; /* Center text on smaller screens */
+    text-align: center;
     width: 100%;
   }
 }
@@ -155,5 +156,26 @@ body {
   }
   .form-layout {
     margin: 40px 0px;
+  }
+}
+
+@media (max-width: 450px) {
+  .nav-mob-open {
+    right: 10px;
+  }
+
+  .nav-menu {
+    width: 50%;
+    right: -60%;
+  }
+
+  .nav-mob-close {
+    left: 80%;
+  }
+  .nav-menu li {
+    font-size: 30px;
+    padding-left: 10px;
+    flex-direction: row;
+    gap: 20px;
   }
 }
