@@ -67,7 +67,7 @@ function Contact() {
         <h1 className="text-[3rem] font-bold">Get in Touch</h1>
       </div>
       <div className="flex gap-20 contact-layout">
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-6 contact-margin">
           <h1
             style={{
               background: "linear-gradient(267deg, red ,  white)",
