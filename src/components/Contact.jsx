@@ -94,11 +94,11 @@ function Contact() {
             </div>
             <div className="flex items-center gap-2">
               <img src={phone} alt="Phone" className="w-10" />
-              <p>02805722</p>
+              <p>03144232659</p>
             </div>
             <div className="flex items-center gap-2">
               <img src={location} alt="Location" className="w-10" />
-              <p>zaina32@gmail.com</p>
+              <p>Lahore, Pakistan</p>
             </div>
           </div>
         </div>
