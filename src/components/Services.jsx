@@ -10,7 +10,7 @@ function Services() {
         <h1 className="text-[3rem] font-bold p-4">My services</h1>
         <img src="" alt="" />
       </div>
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-2 gap-4 service-box">
         {Services_Data.map((service, index) => {
           return (
             <div

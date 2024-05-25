@@ -5,12 +5,14 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   height: 100vh;
   background: black;
   color: white;
+  overflow-x: hidden;
 }
 
 .service-layout:hover {
@@ -94,11 +96,61 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-left: 30px;
   }
 }
 @media (max-width: 900px) {
   .about-layout {
     display: flex;
     flex-direction: column;
+  }
+}
+
+.skill-bar {
+  outline: none;
+  border: none;
+  height: 8px;
+  border-radius: 50px;
+  background: linear-gradient(300deg, white, red);
+}
+
+@media (max-width: 465px) {
+  .about-layout {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .about-layout img {
+    width: 80vw; /* Adjust image width for smaller screens */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .skill-bar {
+    width: 100%; /* Make skill bars full width */
+  }
+
+  .text-left {
+    text-align: center; /* Center text on smaller screens */
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .service-box {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 830px) {
+  .footer-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .form-layout {
+    margin: 40px 0px;
   }
 }

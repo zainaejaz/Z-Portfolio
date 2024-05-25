@@ -1,4 +1,4 @@
-import MyWork_List from "./mywork";
+import MyWork_List from "./mywork.js";
 
 function Work() {
   return (
