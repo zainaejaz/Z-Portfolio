@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background: black;
+  color: white;
+}
+
+.service-layout:hover {
+  background-image: linear-gradient(300deg, red, black);
+  transform: scale(1.05);
+  transition: 0.4s;
+  border: 2px solid red;
+}
+
+.btn-layout:hover {
+  background: white;
+  color: red;
+  font-weight: 500;
+}
+
+.work-layout:hover {
+  transform: scale(1.05);
+  transition: 0.4s;
+  border: 2px solid red;
+  cursor: pointer;
+}
+
+.nav-mob-close {
+  display: none;
+}
+
+.nav-mob-open {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    margin: 20px 50px;
+    justify-content: flex-start; /* Align content to the start */
+  }
+
+  .navContact {
+    display: none;
+  }
+
+  .nav-mob-open {
+    display: block;
+    position: fixed;
+    right: 30px;
+  }
+
+  .nav-mob-close {
+    display: block;
+    position: absolute; /* Use absolute positioning to position the icon within the nav-menu */
+    top: 20px;
+    left: 290px;
+    width: 30px;
+    background-color: black;
+  }
+
+  .nav-menu {
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    gap: 30px;
+    background-color: red;
+    width: 350px;
+    height: 100%;
+    z-index: 2;
+    transition: right 0.5s;
+    right: -350px;
+  }
+
+  .nav-menu li {
+    font-size: 30px;
+    padding-left: 100px;
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 975px) {
+  .contact-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 900px) {
+  .about-layout {
+    display: flex;
+    flex-direction: column;
+  }
+}
