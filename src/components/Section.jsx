@@ -12,7 +12,7 @@ function Section() {
     <div className="flex flex-col items-center justify-center gap-3" id="home">
       <img
         src={profileImg}
-        className="w-50 h-40 object-contain rounded-full mt-[150px] transition-all duration-150 ease-in-out transform hover:scale-105 cursor-pointer border-4 border-[red]"
+        className="w-50 h-40 object-contain rounded-lg mt-[150px] transition-all duration-150 ease-in-out transform hover:scale-105 cursor-pointer border-4 border-[red]"
       />
       <h1 className="text-center text-[3rem]">
         <span
@@ -26,10 +26,10 @@ function Section() {
         >
           I'am Zaina,
         </span>{" "}
-        frontend developer from Pakistan
+        Reactjs frontend developer from Pakistan
       </h1>
       <p className="text-center text-lg">
-        A frontend developer skilled in HTML, CSS, Bootstrap, Tailwind,
+        A frontend developer skilled in HTML5, CSS3, Bootstrap, Tailwind,
         JavaScript, and React.js, capable of creating responsive and dynamic web
         applications
       </p>
