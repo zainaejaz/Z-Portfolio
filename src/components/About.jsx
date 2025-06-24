@@ -21,8 +21,8 @@ function About() {
         <div className="flex flex-col gap-2 w-full max-w-lg mt-8 md:mt-0 md:ml-[8rem]">
           <div className="max-w-md">
             <p>
-              A talented frontend developer with expertise in HTML, CSS,
-              Bootstrap, Tailwind, JavaScript, and React.js, known for creating
+              A talented fullstack engineer with expertise in HTML5, CSS3,
+              Bootstrap, Tailwind, JavaScript(JS ES6), React.js and Nodejs known for creating
               stunning, responsive web interfaces that enhance user experience
               and engagement.
             </p>
@@ -34,7 +34,7 @@ function About() {
               web.
             </p>
           </div>
-          <div className="flex items-center mt-8">
+          <div className="flex items-center mt-6">
             <p className="w-1/2 text-left">HTML & CSS</p>
             <hr className="flex-grow border-t border-gray-400 skill-bar" />
           </div>
@@ -48,6 +48,10 @@ function About() {
           </div>
           <div className="flex items-center">
             <p className="w-1/2 text-left">ReactJs</p>
+            <hr className="flex-grow border-t border-gray-400 skill-bar" />
+          </div>
+          <div className="flex items-center">
+            <p className="w-1/2 text-left">NodeJs</p>
             <hr className="flex-grow border-t border-gray-400 skill-bar" />
           </div>
         </div>

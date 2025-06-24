@@ -1,4 +1,3 @@
-import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import profileImg from "../assets/profileImg.jpeg";
 import resumePdf from "../assets/resume.pdf"; // Make sure the path is correct
@@ -26,12 +25,13 @@ function Section() {
         >
           I'am Zaina,
         </span>{" "}
-        Reactjs frontend developer from Pakistan
+        Full Stack Engineer from Pakistan
       </h1>
       <p className="text-center text-lg">
-        A frontend developer skilled in HTML5, CSS3, Bootstrap, Tailwind,
+        I am from PUCIT where I started my degree in BSIT. During my university I build my strong foundation in core computer fundamentals like oop, database, operating system and and data structure
+        {/* A frontend developer skilled in HTML5, CSS3, Bootstrap, Tailwind,
         JavaScript, and React.js, capable of creating responsive and dynamic web
-        applications
+        applications */}
       </p>
       <div className="flex gap-5 mt-5">
         <div

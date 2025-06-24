@@ -1,15 +1,15 @@
 export default function Footer() {
   return (
     <div className="m-6 flex flex-col gap-3">
-      <div className="flex justify-between footer-layout">
-        <div>
+      {/* <div className="flex justify-between footer-layout"> */}
+        {/* <div>
           <p className="font-semibold text-[1rem]">
             I am ReactJS developer from Pakistan <br /> with the experience of
             Web designing and Technologies.
           </p>
-        </div>
+        </div> */}
 
-        <div className="flex items-center gap-2 form-layout">
+        {/* <div className="flex items-center gap-2 form-layout">
           <div className="flex gap-2 p-2">
             <input
               type="email"
@@ -23,8 +23,8 @@ export default function Footer() {
           >
             Subscribe
           </div>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
 
       <div className="flex justify-between gap-3">
         <p className="font-semibold text-[1rem]">
