@@ -23,15 +23,12 @@ function Section() {
           }}
           className="font-semibold"
         >
-          I'am Zaina,
+          I'm Zaina,
         </span>{" "}
         Full Stack Engineer from Pakistan
       </h1>
       <p className="text-center text-lg">
-        I am from PUCIT where I started my degree in BSIT. During my university I build my strong foundation in core computer fundamentals like oop, database, operating system and and data structure
-        {/* A frontend developer skilled in HTML5, CSS3, Bootstrap, Tailwind,
-        JavaScript, and React.js, capable of creating responsive and dynamic web
-        applications */}
+        I am from PUCIT where I started my degree in BSIT. During my University I build my strong foundation in core computer fundamentals like OOP, Data Structure, Database and Operating System. 
       </p>
       <div className="flex gap-5 mt-5">
         <div
