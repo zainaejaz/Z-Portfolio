@@ -1,9 +1,9 @@
 const Services_Data = [
   {
     s_no: "01",
-    s_name: "ReactJs Developer",
+    s_name: "Full Stack Developer",
     s_desc:
-      "I specialize in front-end developer who uses the React.js library to build user interfaces and efficient rendering capabilities for web applications.",
+      "I specialize in full stack development who uses the (Mongodb, Express, React.js, Node) libraries to build user interfaces and efficient rendering capabilities for web applications.",
   },
   {
     s_no: "02",

@@ -90,11 +90,22 @@ function Contact() {
                 alt="Gmail"
                 className="bg-white w-10 rounded-md"
               />
-              <p>zaina32@gmail.com</p>
+                  {/* Email Link */}
+          <a 
+            href="mailto:zainaijaz32@gmail.com" 
+            className="underline hover:text-blue-600"
+          >
+            zainaijaz32@gmail.com
+          </a>
             </div>
             <div className="flex items-center gap-2">
               <img src={phone} alt="Phone" className="w-10" />
-              <p>03144232659</p>
+                      <a 
+            href="tel:+923001234567" 
+            className="underline hover:text-blue-600"
+          >
+            03144232659
+          </a>
             </div>
             <div className="flex items-center gap-2">
               <img src={location} alt="Location" className="w-10" />
